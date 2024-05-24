@@ -48,6 +48,7 @@ const Input = ({ initial, annual, expected, duration, change }) => {
             value={duration}
             required
             min={0}
+            max={100}
             onChange={(e) => change("duration", e.target.value)}
           />
         </p>
